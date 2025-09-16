@@ -19,3 +19,24 @@ I created this project while learning Python and French. It combines language le
 ```bash
 git clone https://github.com/Mboatella25/Word-generator-pop-up.git
 cd Word-generator-pop-up
+```
+2. Install dependencies:
+```bash
+pip3 install pync
+```
+3. Make the script executable:
+```bash
+chmod +x les_mots_du_jour.py
+```
+4. Create a global symlink to run it from anywhere:
+```bash
+sudo ln -s /full/path/to/les_mots_du_jour.py /usr/local/bin/les_mots_du_jour
+```
+5.	Schedule with cron (daily at 9 AM):
+```bash
+crontab -e
+# Add the following line:
+0 9 * * * /usr/local/bin/les_mots_du_jour
+```
+
+   
