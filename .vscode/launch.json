@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Python3",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "python": "/usr/bin/python3",
+            "console": "integratedTerminal"
+        }
+    ]
+}
